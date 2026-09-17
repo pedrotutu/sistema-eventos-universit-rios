@@ -3,7 +3,7 @@
 Este é o front-end de um site desenvolvido para eventos universitários
 
 ## Link do Projeto Publicado
-  [https://pedrotutu.github.io/sistema-eventos-universitarios/](https://pedrotutu.github.io/sistema-eventos-universitarios/)
+  [[https://pedrotutu.github.io/sistema-eventos-universitarios/](https://pedrotutu.github.io/sistema-eventos-universitarios/)](https://pedrotutu.github.io/sistema-eventos-universit-rios/)
 ## Tecnologias Utilizadas
  **HTML** 
  **CSS**
