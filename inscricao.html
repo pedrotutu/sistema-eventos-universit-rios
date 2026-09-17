@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1>UniEventos</h1>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programacao.html">Programação</a></li>
+                <li><a href="inscricao.html">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="pagina">
+
+            <h2>Inscrição em Evento</h2>
+
+            <p>
+                Preencha o formulário abaixo para realizar sua inscrição.
+            </p>
+            <br>
+
+            <form>
+
+                <div class="campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="curso">Curso:</label>
+                    <input type="text" id="curso" name="curso" required>
+                </div>
+
+                <div class="campo">
+                    <label for="periodo">Período:</label>
+
+                    <select id="periodo" name="periodo" required>
+                        <option value="">Selecione</option>
+                        <option value="1">1° período</option>
+                        <option value="2">2° período</option>
+                        <option value="3">3° período</option>
+                        <option value="4">4° período</option>
+                        <option value="5">5° período</option>
+                        <option value="6">6° período</option>
+                        <option value="7">7°período</option>
+                        <option value="8">8° período</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="evento">Evento desejado:</label>
+
+                    <select id="evento" name="evento" required>
+                        <option value="">Selecione</option>
+                        <option value="tecnologia">
+                            o futuro da tecnologia
+                        </option>
+                        <option value="programacao">
+                            introdução à programação
+                        </option>
+                        <option value="web">
+                            desenvolvimento web
+                        </option>
+                        <option value="projetos">
+                            criação de projetos
+                        </option>
+                        <option value="pesquisa">
+                            pesquisa
+                        </option>
+                        <option value="inovacao">
+                            inovação e tecnologia
+                        </option>
+                    </select>
+                </div>
+
+                <section class="modalidade">
+
+                    <legend>Modalidade</legend>
+
+                    <label>
+                        <input type="radio" name="modalidade" value="presencial" required>
+                        Presencial
+                    </label>
+
+                    <label>
+                        <input type="radio" name="modalidade" value="online">
+                        Online
+                    </label>
+
+                </section>
+
+                <div class="confirmacao">
+
+                    <label>
+                        <input type="checkbox" name="confirmacao" required>
+                        Confirmo que as informações estão certas.
+                    </label>
+
+                </div>
+
+                <button type="submit">Realizar Inscrição</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="inscricao">
+        <p>© 2026 UniEventos</p>
+    </footer>
+
+</body>
+
+</html>
